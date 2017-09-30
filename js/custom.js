@@ -23,7 +23,7 @@
 	initCarousel();
 	initWowAnimation();
 	initContactForm();
-	initGoogleMap();
+	//initGoogleMap();
 
 
 	/* ---------------------------------------------
@@ -138,7 +138,7 @@
 	 Image Background
 	 --------------------------------------------- */
 	function initImageBackground(){
-		$(".image-bg").each(function(){
+		$(".image-bg").each(function(){			
 			if ($(this).attr("data-image-bg")){
 				$(this).css({
 					"background": "url(" + $(this).data("image-bg") + ")",

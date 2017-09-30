@@ -1885,3 +1885,12 @@ ol.ff-roboto-cn li, ul.ff-roboto-cn li{
 	cursor: pointer;
 	border-radius: 100px;
 }
+
+.pre  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  z-index: 1;
+}
